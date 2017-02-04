@@ -9,60 +9,59 @@
 import Foundation
 
 var gameDictionary =
-    ["melton": "a heavily fulled cloth, often of wool, tightly constructed and finished with a smooth face concealing the weave, used for overcoats, hunting jackets, etc.",
-     "reconstruct": "to re-create in the mind from given or available information.",
-     "aware": "having knowledge; conscious; cognizant.",
-     "merriment": "cheerful or joyful gaiety; mirth; hilarity; laughter.",
-     "levirate": "the custom of marriage by a man with his brother's widow, such marriage required in Biblical law if the deceased was childless.",
-     "rootlike": "a part of the body of a plant that develops, typically, from the radicle and grows downward into the soil, anchoring the plant and absorbing nutriment and moisture.",
-     "glare": "a very harsh, bright, dazzling light.",
-     "conservatism": "the disposition to preserve or restore what is established and traditional and to limit change.",
-     "membrane": "Anatomy. a thin, pliable sheet or layer of animal or vegetable tissue, serving to line an organ, connect parts, etc.",
-     "assertive": "confidently aggressive or self-assured; positive: aggressive; dogmatic.",
-     "gabble": "to speak or converse rapidly and unintelligibly; jabber.",
-     "talkathon": "an unusually long speech or discussion, especially on a matter of public interest, as a Congressional filibuster or a televised question-and-answer session with a political candidate.",
-     "knowledge": "acquaintance with facts, truths, or principles, as from study or investigation; general erudition.",
-     "familiarity": "thorough knowledge or mastery of a thing, subject, etc.",
-     "purposed": "the reason for which something exists or is done, made, used, etc.",
-     "conscious": "aware of one's own existence, sensations, thoughts, surroundings, etc.",
-     "temporised": "to be indecisive or evasive to gain time or delay acting.",
-     "mastery": "command or grasp, as of a subject.",
-     "signal": "anything that serves to indicate, warn, direct, command, or the like, as a light, a gesture, an act, etc.",
-     "roke": "a seam or scratch filled with scale or slag on the surface of an ingot or bar.",
-     "baptism": "Ecclesiastical. a ceremonial immersion in water, or application of water, as an initiatory rite or sacrament of the Christian church.",
-     "chipolata": "a small sausage in a narrow casing",
-     "hunan": "Pinyin, Wade-Giles. a province in S China. 81,274 sq. mi. (210,500 sq. km).",
-     "moderator": "a person who presides over a panel discussion on radio or television.",
-     "rada": "Royal Academy of Dramatic Art.",
-     "rejoice": "to be glad; take delight.",
-     "signboard": "a board bearing a sign.",
-     "phuket": "an island near the W coast of Thailand. 294 sq. mi.",
-     "forfeit": "a fine; penalty.",
-     "precept": "a commandment or direction given as a rule of action or conduct.",
-     "command": "to direct with specific authority or prerogative; order.",
-     "wheeled": "equipped with or having wheels.",
-     "chronoscope": "an electronic instrument for measuring accurately very brief intervals of time, as in determining the velocity of projectiles.",
-     "subpoena": "the usual writ for the summoning of witnesses or the submission of evidence, as records or documents, before a court or other deliberative body.",
-     "medico": "a physician or surgeon; doctor.",
-     "coin": "a piece of metal stamped and issued by the authority of a government for use as money.",
-     "authority": "the power to determine, adjudicate, or otherwise settle issues or disputes; jurisdiction; the right to control, command, or determine.",
-     "grisliness": "causing a shudder or feeling of horror; horrible; gruesome.",
-     "acid": "a substance with a sour taste.",
-     "drama": "a composition in prose or verse presenting in dialogue or pantomime a story involving conflict or contrast of character, especially one intended to be acted on the stage; a play.",
-     "pronounce": "to enunciate or articulate (sounds, words, sentences, etc.).",
-     "pathology": "the science or the study of the origin, nature, and course of diseases.",
-     "cobelligerent": "a state or individual that cooperates with, but is not bound by a formal alliance to another in waging war.",
-     "member": "a person, animal, plant, group, etc., that is part of a society, party, community, taxon, or other body.",
-     "heroism": "the qualities or attributes of a hero or heroine.",
-     "taxable": "capable of being taxed; subject to tax.",
-     "viminal": "one of the seven hills on which ancient Rome was built.",
-     "beloved": "greatly loved; dear to the heart.",
-     "bunch": "a connected group; cluster.",
-     "googolplex": "a number that is equal to 1 followed by a googol of zeros.",
-     "appreciate": "to be grateful or thankful for."]
+    ["analysis": "abstract separation of a whole into its constituent parts",
+     "approach": "move towards",
+     "area": "the extent of a 2-dmensional surface within a boundry",
+     "assessment": "the act of judging a person or situation or event",
+     "assume": "take to be the case or to be true",
+     "authority": "the power or right to give orders or make decisions",
+     "available": "obtainable or accessible and ready for use or service",
+     "benefit": "something that aids or promotes well-being",
+     "concept": "an abstract or general idea inferred from specific instances",
+     "constitutional": "exsiting as an essential characteristic",
+     "context": "the set of facts or circumstances that surround a situation",
+     "contract": "a binding agreement that is enforceable by law",
+     "create": "bring into existence",
+     "data": "a collection of facts from which conclusions may be drawn",
+     "definition": "a concise explanation of the meaning of a word or phrase",
+     "derived": "formed or developed from something else; not original",
+     "economic": "of or relating to production and management of wealth",
+     "environment": "the totality of surrounding conditions",
+     "established": "brought about or set up or accepted",
+     "estimate": "judge tentatively",
+     "evidence": "knowledge on which to base belief",
+     "export": "sell or transfer abroad",
+     "factor": "anything that contributes causally to a result",
+     "financial": "involving fiscal matters",
+     "formula": "a group of symbols that make a mathematical statement",
+     "function": "what something is used for",
+     "identified": "having the identity known or established",
+     "income": "the financial gain accruing over a given period of time",
+     "indicate": "designate a place, direction, person, or thing",
+     "individual": "being or characteristic of a single thing or person",
+     "interpretation": "the act of expressing something in an artistic performance",
+     "involved": "connected by participation or association or use",
+     "issue": "some situation or event that is thought about",
+     "labour": "productive work (especially physical work done for wages)",
+     "legal": "established by or founded upon law or official rules",
+     "legislation": "the act of making or enacting laws",
+     "major": "greater in scope or effect",
+     "method": "a way of doing something, especially a systematic way",
+     "occur": "come to pass",
+     "percent": "a proportion in relation to a whole",
+     "period": "an amount of time",
+     "policy": "a plan of action adopted by an individual or social group",
+     "principle": "a basic generalization that is accepted as true",
+     "procedure": "a particular course of action intended to achieve a result",
+     "required": "necessary by rule",
+     "research": "a seeking for knowledge",
+     "response": "the speech act of continuing a conversational exchange",
+     "role": "the actions and activities assigned to a person or group",
+     "section": "one of several parts or pieces that fit with others",
+     "sector": "a particular aspect of life or activity"]
 var score = 0;
 var highScore = 0;
-var wordBank = ["melton", "reconstruct", "aware", "merriment", "levirate", "rootlike", "glare", "conservatism", "membrane", "assertive", "gabble", "talkathon", "knowledge", "familiarity", "purposed", "conscious", "temporised", "mastery", "signal", "roke", "baptism", "chipolata", "hunan", "moderator", "rada", "rejoice", "signboard", "phuket", "forfeit", "precept", "command", "wheeled", "chronoscope", "subpoena", "medico", "coin", "authority", "grisliness", "acid", "drama", "pronounce", "pathology", "cobelligerent", "member", "heroism", "taxable", "viminal", "beloved", "bunch", "googolplex", "appreciate"]
+var wordBank = ["analysis", "approach", "area", "assessment", "assume", "authority", "available", "benefit", "concept", "constitutional", "context", "contract", "create", "data", "definition", "derived", "economic", "environment", "established", "estimate", "evidence", "export", "factor", "financial", "formula", "function", "identified", "income", "indicate", "individual", "interpretation", "involved", "issue", "labour", "legal", "legislation", "major", "method", "occur", "percent", "period", "policy", "principle", "procedure", "required", "research", "response", "role", "section", "sector"]
 
 func ShowDesc(_ word : String) {
     let desc = gameDictionary[word]
@@ -75,9 +74,10 @@ while input != "y" && input != "n" {
     print("Invalid input! (y/n)")
     input = readLine()
 }
-while input == "y" {
+while input == "y" && wordBank.count > 0 {
     var randIndex = Int(arc4random_uniform(UInt32(wordBank.count)))
     var word = wordBank[randIndex]
+    wordBank.remove(at: randIndex)
     print("What word matches this description?\n")
     ShowDesc(word)
     var answer = readLine()
@@ -105,7 +105,7 @@ while input == "y" {
         answer = readLine()
     }
     if (answer == word) {
-        print("Correct!\n You have earned +5 points")
+        print("Correct!\nYou have earned +5 points")
         score += 5
         if (score >= highScore) {
             highScore = score
@@ -118,7 +118,11 @@ while input == "y" {
         input = readLine()
     }
     print("\nYour current score is: " + String(score))
-    print("Highscore: " + String(highScore))
+}
+
+if (wordBank.count <= 0) {
+    print("Congrats! We ran out of words!")
 }
 
 print("\nThanks for playing!")
+print("Highscore: " + String(highScore))
