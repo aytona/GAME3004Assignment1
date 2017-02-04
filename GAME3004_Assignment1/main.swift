@@ -62,15 +62,63 @@ var gameDictionary =
      "appreciate": "to be grateful or thankful for."]
 var score = 0;
 var highScore = 0;
+var wordBank = ["melton", "reconstruct", "aware", "merriment", "levirate", "rootlike", "glare", "conservatism", "membrane", "assertive", "gabble", "talkathon", "knowledge", "familiarity", "purposed", "conscious", "temporised", "mastery", "signal", "roke", "baptism", "chipolata", "hunan", "moderator", "rada", "rejoice", "signboard", "phuket", "forfeit", "precept", "command", "wheeled", "chronoscope", "subpoena", "medico", "coin", "authority", "grisliness", "acid", "drama", "pronounce", "pathology", "cobelligerent", "member", "heroism", "taxable", "viminal", "beloved", "bunch", "googolplex", "appreciate"]
+
+func ShowDesc(_ word : String) {
+    let desc = gameDictionary[word]
+    print(desc!)
+}
 
 print("Welcome to the Dictionary Game! \nWould you like to play? (y/n)")
 var input = readLine()
-while input != "n" {
-    var randIndex = Int(arc4random_uniform(51))
-    for randIndex in gameDictionary.values {
-        print(randIndex)
+while input != "y" && input != "n" {
+    print("Invalid input! (y/n)")
+    input = readLine()
+}
+while input == "y" {
+    var randIndex = Int(arc4random_uniform(UInt32(wordBank.count)))
+    var word = wordBank[randIndex]
+    print("What word matches this description?\n")
+    ShowDesc(word)
+    var answer = readLine()
+    var tryAgain = String()
+    while answer != word && tryAgain != "n" {
+        print("Wrong answer\nWould you like to try again?(y/n)")
+        tryAgain = readLine()!
+        while tryAgain != "n" && tryAgain != "y" {
+            print("Invalid input! (y/n)")
+            tryAgain = readLine()!
+        }
+        if (tryAgain == "n") {
+            break;
+        }
+        print("Would you like to read the description again? (y/n)")
+        var desc = readLine()
+        while desc != "n" && tryAgain != "y" {
+            print("Invalid input! (y/n)")
+            desc = readLine()
+        }
+        if (desc == "y") {
+            ShowDesc(word)
+        }
+        print("Type your answer")
+        answer = readLine()
     }
+    if (answer == word) {
+        print("Correct!\n You have earned +5 points")
+        score += 5
+        if (score >= highScore) {
+            highScore = score
+        }
+    }
+    print("Would you like to keep playing? (y/n)")
+    input = readLine()
+    while input != "y" && input != "n" {
+        print("Invalid input! (y/n)")
+        input = readLine()
+    }
+    print("\nYour current score is: " + String(score))
+    print("Highscore: " + String(highScore))
 }
 
-print("Thanks for playing!")
-
+print("\nThanks for playing!")
